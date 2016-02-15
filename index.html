@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WHO data (An app to explore the data with ease)</title>
+  <meta charset="utf-8">
+  <meta name="description" content="WHO data (An app to explore the data with ease)">
+  <meta name="author" content="Arjun KV">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>WHO data (An app to explore the data with ease)</h1>
+    <h2>Developing Data Products -  Course Project</h2>
+    <p>Arjun KV<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This app provides you the data on social indicators of all countries. You can customize the data as per your requirements just by a click.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>WHO data</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The dataset consists of 177 observations with 9 parameters such as Country, Region, Fertility Rate, Population, etc.</p>
+
+<p>The following are the variables of the dataset:</p>
+
+<pre><code>##                 Country                      Region     Population     
+##  Afghanistan        :  1   Africa               :46   Min.   :     89  
+##  Albania            :  1   Americas             :32   1st Qu.:   2969  
+##  Algeria            :  1   Eastern Mediterranean:21   Median :   9405  
+##  Angola             :  1   Europe               :48   Mean   :  39689  
+##  Antigua and Barbuda:  1   South-East Asia      :11   3rd Qu.:  28288  
+##  Argentina          :  1   Western Pacific      :19   Max.   :1390000  
+##  (Other)            :171                                               
+##     Under15          Over60      FertilityRate   LifeExpectancy 
+##  Min.   :13.12   Min.   : 0.81   Min.   :1.260   Min.   :47.00  
+##  1st Qu.:18.64   1st Qu.: 5.10   1st Qu.:1.840   1st Qu.:63.00  
+##  Median :28.65   Median : 8.10   Median :2.400   Median :72.00  
+##  Mean   :28.89   Mean   :10.98   Mean   :2.936   Mean   :69.74  
+##  3rd Qu.:38.49   3rd Qu.:16.59   3rd Qu.:3.900   3rd Qu.:76.00  
+##  Max.   :49.99   Max.   :31.92   Max.   :7.580   Max.   :83.00  
+##                                                                 
+##  ChildMortality   CellularSubscribers
+##  Min.   :  2.20   Min.   :  2.57     
+##  1st Qu.:  8.50   1st Qu.: 63.17     
+##  Median : 19.10   Median : 98.45     
+##  Mean   : 37.49   Mean   : 93.94     
+##  3rd Qu.: 58.30   3rd Qu.:121.66     
+##  Max.   :181.60   Max.   :196.41     
+## 
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The core idea</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Categorical variables are listed in the GUI as checkboxes</li>
+<li>Numerical variables are listed as slider input</li>
+<li>You can vary the slider or use the checkboxes to customize the data according to your needs immediately</li>
+</ul>
+
+<p><img src="mypics.png" alt="width = 5, height = 4"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The App</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Link: <a href="https://arj27083.shinyapps.io/Apps/">https://arj27083.shinyapps.io/Apps/</a></p>
+
+<p><img src="mypics_1.png" alt="width = 6, height = 5"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='WHO data'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='The core idea'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='The App'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='NA'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
